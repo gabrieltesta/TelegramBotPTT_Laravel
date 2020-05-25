@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Telegram\Bot\Api;
 use Telegram\Bot\FileUpload\InputFile;
 
@@ -25,7 +24,7 @@ class BotController extends Controller
         $this->validateBot();
     }
 
-    public function __invoke($id)
+    public function __invoke()
     {
         $this->startBot();
     }
