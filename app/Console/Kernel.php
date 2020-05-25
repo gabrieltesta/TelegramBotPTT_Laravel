@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->call(new BotController)->cron('*/5 * ? * * *');
+        $schedule->call(new BotController)->cron('0 0/5 * 1/1 * ? *');
     }
 
     /**
