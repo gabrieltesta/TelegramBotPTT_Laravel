@@ -2998,7 +2998,7 @@
                 "psr-4": {
                     "Symfony\\Contracts\\HttpClient\\": ""
                 }
-            ],
+            },
             "description": "Generic abstractions related to HTTP clients",
             "homepage": "https://symfony.com",
             "keywords": [
