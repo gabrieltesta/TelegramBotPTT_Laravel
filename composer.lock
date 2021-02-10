@@ -772,7 +772,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v7.12.0",
+            "version": "v7.30.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
